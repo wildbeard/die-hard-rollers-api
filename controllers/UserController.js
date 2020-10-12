@@ -1,4 +1,4 @@
-const UserModel = require('../models/User.model');
+const UserModel = require('../models/User');
 
 exports.list = (request, response) => {
 
@@ -11,5 +11,5 @@ exports.list = (request, response) => {
  * @return {Response}
  */
 exports.show = (request, response) => {
-    
+
 }
